@@ -1,0 +1,114 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Generics */
+
+html {
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 50vw;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+#bg-yellow h1 {
+    color: green;
+}
+
+main {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.side-navbar li {
+    display: inline-block;
+}
+
+
+#bg-red {
+    background-color: red;
+}
+#bg-green {
+    background-color: green;
+}
+#bg-yellow {
+    background-color: yellow;
+}
+
+
+
+/* Utility */
+
+
+.full-page {
+    height: 100vh;
+    position: relative;
+}
+
+
+
+
+/* Full-page content style */
+
+.full-page .section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Side NavBar style */
+
+.side-navbar {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+.side-navbar a {
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+/* Simulation of clicking button on the number-link */
+
+.side-navbar a:hover {
+    scale: 1.2;
+}
+.side-navbar a:active {
+    scale: 1;
+}
