@@ -1,5 +1,15 @@
+/* Generics */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Utility */
+
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
 }
